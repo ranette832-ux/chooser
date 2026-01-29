@@ -1,4 +1,34 @@
-![GitHub contributors](https://img.shields.io/github/contributors/creativecommons/chooser)
+D_GLIBCXX_DEBUG . -D_GLIBCXX_DEBUG_PEDANTIC(Nota: En GCC 3.4.x y 4.0.0, debido a un error, -D_GLIBXX_DEBUG_PEDANTICtambién era necesario. El problema se ha solucionado en GCC 4.0.1 y versiones posteriores).
+
+Los siguientes componentes de la biblioteca proporcionan capacidades de depuración adicionales en el modo de depuración:
+
+std::array(no hay iteradores seguros)
+
+std::basic_string(no hay iteradores seguros y ver nota a continuación)
+
+std::bitset
+
+std::deque
+
+std::list
+
+std::map
+
+std::multimap
+
+std::multiset
+
+std::set
+
+std::vector
+
+std::unordered_map
+
+std::unordered_multimap
+
+std::unordered_set
+
+std::unordered_multiset![GitHub contributors](https://img.shields.io/github/contributors/creativecommons/chooser)
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/creativecommons)
 ![GitHub](https://img.shields.io/github/license/creativecommons/chooser)
 ![GitHub issues](https://img.shields.io/github/issues-raw/creativecommons/chooser)
